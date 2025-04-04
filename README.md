@@ -1,5 +1,8 @@
 # Projeção de Dengue Brasil
 
+![image](https://github.com/user-attachments/assets/f2f98b54-922f-451f-ab28-6eaca7ee5d85)
+
+
 Projeto acadêmico desenvolvido para a FIAP, com o objetivo de analisar dados históricos de Dengue no Brasil e projetar cenários futuros. A proposta é entender o comportamento da doença ao longo do tempo e facilitar a visualização de tendências que possam contribuir para ações preventivas.
 
 ## 📖 Descrição Geral
@@ -43,12 +46,16 @@ graph TD;
    pip install -r requirements.txt
    ```
 
-3. **Execute o projeto**
+3. **Execute a API**
    ```
-   python main.py
+   uvicorn api:app --reload
+
+4. **Execute o Dashboard**
+   ```
+   python dashboard.py
    ```
 
-4. **Visualize os resultados**
+5. **Visualize os resultados**
    - Verifique as saídas na pasta `outputs/`
    - Gráficos e previsões estarão disponíveis para análise
 
@@ -76,3 +83,6 @@ graph TD;
 
 Este projeto foi desenvolvido para fins acadêmicos, como parte do curso da FIAP.  
 O intuito é aplicar técnicas de ciência de dados a um problema de grande impacto social no Brasil, oferecendo uma visão clara sobre a evolução da Dengue no país.
+
+![image](https://github.com/user-attachments/assets/079f6514-a8a9-42f9-abd2-48cc2e6d66d5)
+
