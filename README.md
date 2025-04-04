@@ -56,7 +56,7 @@ graph TD;
    ```
 
 5. **Visualize os resultados**
-   - Verifique as saídas na pasta `outputs/`
+   - Verifique as saídas na pasta `modelos/`
    - Gráficos e previsões estarão disponíveis para análise
 
 > ⚠️ **Requisitos:** Python 3.9 ou superior.
